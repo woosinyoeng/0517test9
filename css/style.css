@@ -197,13 +197,15 @@ transform: translateX(100%);transition: transform 0.3s ease; visibility: hidden;
   .main_text>h1 {font-size: 1.8em;}
   .main_text>p {font-size: 1em;}
   .btn_white, .btn_red {min-width: 120px;padding: 8px 15px;font-size: 14px;}
+  .btn_red{margin-top: 10px;}
 
   .about {flex-direction: column;}
   .about_box {width: 100%;padding: 40px 20px;}
+  .about_btn_r{margin-top: 10px;}
 
   .brand {flex-wrap: wrap;padding: 40px 20px;}
   .brand a {flex: 1 1 45%;margin-bottom: 20px;}
 
   .banner {flex-direction: column;}
-  .banner_txt {position: static;transform: none;padding: 20px;text-align: center;}
+  .banner_txt {position: static;transform: none;padding: 20px;}
 }
